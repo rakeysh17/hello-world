@@ -74,5 +74,6 @@ If you want to change default branch, it's so easy with github, in your fork go 
 Executive Summary
 
 $ git push -d origin <branch_name>
+
 $ git branch -d <branch_name>
 
