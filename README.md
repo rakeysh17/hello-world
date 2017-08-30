@@ -40,6 +40,14 @@ Add a new remote for your branch :
 
 $ git remote add [name_of_your_remote] 
 
+$ git remote add origin https://github.com/user/repo.git
+# Set a new remote
+
+$ git remote -v
+# Verify new remote
+origin  https://github.com/user/repo.git (fetch)
+origin  https://github.com/user/repo.git (push)
+
 Push changes from your commit into your branch :
 
 $ git push [name_of_your_new_remote] [name_of_your_branch]
